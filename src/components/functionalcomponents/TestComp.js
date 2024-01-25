@@ -1,7 +1,5 @@
 import React from "react";
-import { ReactDOM } from "react";
-
-function TestComp(props){
+const TestComp=(props)=>{
     return(
         <div>
             <h1>This is {props.name}</h1>
